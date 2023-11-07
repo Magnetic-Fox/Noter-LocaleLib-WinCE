@@ -17,7 +17,7 @@ Haven't tested under newer Lazarus versions (as the code was developed under Win
 It is possible to port this solution to eMbedded Visual C++ (or other compiler suite), as the main code is only a Pascal stub.
 The only thing needed is a plain empty DLL file which can be linked with resource containing string table - this can probably be achieved by any good compiler that support Windows target.
 
-**Remember, that Noter Client for Windows CE uses UTF-8. If You wish to port this library to other language for use with, let's say - older, compiler, You'll have to encode strings in resource to UTF-8 form before.**
+**Remember, that Noter Client for Windows CE uses UTF-8. If You wish to port this library to other language for use with, let's say, older compiler, You'll have to encode strings in resource to UTF-8 form before.**
 
 ## Known problems
 
