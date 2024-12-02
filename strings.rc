@@ -144,6 +144,7 @@ Button:                              5xx
 #define LABEL_LANGLIBINFO            470
 #define LABEL_LANGLIBAUTHOR          471
 #define LABEL_LANGLIBDATE            472
+#define LABEL_COMPRESSION            473
 
 // Button section
 
@@ -294,6 +295,7 @@ STRINGTABLE
     LABEL_LANGLIBINFO,               "Informacje o pakiecie językowym"
     LABEL_LANGLIBAUTHOR,             "Autor: "
     LABEL_LANGLIBDATE,               "Data: "
+    LABEL_COMPRESSION                "Oczekuj kompresji"
 
     BUTTON_ADD,                      "Dodaj"
     BUTTON_UPDATE,                   "Zaktualizuj"
