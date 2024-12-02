@@ -176,7 +176,7 @@ STRINGTABLE
     LIBINFO_LANGUAGE,                "Polski"
     LIBINFO_FORVERSION,              "1.0.0.0"
     LIBINFO_CREATEDBY,               "Bartłomiej ""Magnetic-Fox"" Węgrzyn"
-    LIBINFO_CREATIONDATE,            "07.11.2023"
+    LIBINFO_CREATIONDATE,            "02.12.2024"
 
     INFO_PREVIOUSSERVER,             "Poprzednie dane serwera zostały przywrócone"
     INFO_OK,                         "OK"
