@@ -117,7 +117,7 @@ Button:                              5xx
 #define LABEL_PROGRAMMER             443
 #define LABEL_CONTACT                444
 #define LABEL_PRODUCTIONTIME         445
-#define LABEL_INFORMATIONFORMNAME    446
+#define LABEL_EMAIL_COPIED           446
 #define LABEL_DELETE                 447
 #define LABEL_UNDO                   448
 #define LABEL_CUT                    449
@@ -268,7 +268,7 @@ STRINGTABLE
     LABEL_PROGRAMMER,                "Programowanie, projektowanie, pomysł, testowanie:"
     LABEL_CONTACT,                   "Kontakt:"
     LABEL_PRODUCTIONTIME,            "Okres tworzenia:"
-    LABEL_INFORMATIONFORMNAME,       "Informacje o programie"
+    LABEL_EMAIL_COPIED,              "Skopiowano adres e-mail do schowka"
     LABEL_DELETE,                    "Usuń"
     LABEL_UNDO,                      "Cofnij"
     LABEL_CUT,                       "Wytnij"
