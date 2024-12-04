@@ -1,7 +1,7 @@
-library project1;
+Library project1;
 
 {$mode objfpc}{$H+}
 {$R strings.rc}
 
-begin
-end.
+Begin
+End.

@@ -9,6 +9,7 @@ Question:                            2xx
 Error:                               3xx
 Label:                               4xx
 Button:                              5xx
+Additional:                          6xx
 
 */
 
@@ -20,7 +21,6 @@ Button:                              5xx
 #define LIBINFO_CREATIONDATE         005
 
 // Information section
-
 #define INFO_PREVIOUSSERVER          101
 #define INFO_OK                      102
 #define INFO_USERCREATED             103
@@ -37,7 +37,6 @@ Button:                              5xx
 #define INFO_SERVERCHANGED           114
 
 // Question section
-
 #define QUESTION_UNSAVEDCHANGES      201
 #define QUESTION_DELETEACCOUNT       202
 #define QUESTION_CHANGECREDENTIALS   203
@@ -46,7 +45,6 @@ Button:                              5xx
 #define QUESTION_WANTLOGOUT          206
 
 // Error section
-
 #define ERROR_NOHELPFILE             301
 #define ERROR_FILLFORMS              302
 #define ERROR_PROVIDEPASSWORD        303
@@ -71,7 +69,6 @@ Button:                              5xx
 #define ERROR_UNKNOWNCODE            322
 
 // Label section
-
 #define LABEL_CONNECTIONCHECKERROR   401
 #define LABEL_CONNECTIONCHECKOK      402
 #define LABEL_REGISTEREDSUCCESSFULLY 403
@@ -147,7 +144,6 @@ Button:                              5xx
 #define LABEL_COMPRESSION            473
 
 // Button section
-
 #define BUTTON_ADD                   501
 #define BUTTON_UPDATE                502
 #define BUTTON_LOCK                  503
@@ -168,15 +164,17 @@ Button:                              5xx
 #define BUTTON_APPLY                 518
 #define BUTTON_BACK2                 519
 
-// Main section
+// Additional section
+#define HELPFILE                     600
 
+// Main section
 STRINGTABLE
 {
     LIBINFO_EN_LANGNAME,             "Polish"
     LIBINFO_LANGUAGE,                "Polski"
     LIBINFO_FORVERSION,              "1.0.0.0"
     LIBINFO_CREATEDBY,               "Bartłomiej ""Magnetic-Fox"" Węgrzyn"
-    LIBINFO_CREATIONDATE,            "03.12.2024"
+    LIBINFO_CREATIONDATE,            "04.12.2024"
 
     INFO_PREVIOUSSERVER,             "Poprzednie dane serwera zostały przywrócone"
     INFO_OK,                         "OK"
@@ -316,4 +314,6 @@ STRINGTABLE
     BUTTON_MESSAGES,                 "Komunikaty"
     BUTTON_APPLY,                    "Zastosuj"
     BUTTON_BACK2,                    "Wróć"
+
+    HELPFILE,                        "\\Windows\\Help\\Noter Client.lnk"
 }
